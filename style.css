@@ -76,5 +76,36 @@ li{
 }
 
 .img{
-    width: 150px;
+    width: 1c50px;
+}
+
+.contacto-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+
+.sumbit{
+    width: 20%;
+    margin: 0 auto;
+    background-color: #C8CDD0;
+    color: black;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.form-control{
+    width: 50%;
+}
+
+label{
+    color: white;
 }
